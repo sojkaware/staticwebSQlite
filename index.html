@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Reviews</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="sql.js-httpvfs.js"></script>
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <nav id="sidebar">
+      <ul>
+        <li><button id="btnMovieReviews">Movie Reviews</button></li>
+      </ul>
+    </nav>
+    <main id="content">
+      <table id="reviewsTable" class="hidden">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody id="reviewsTableBody">
+        </tbody>
+      </table>
+    </main>
+  </div>
+</body>
+</html>
